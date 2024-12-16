@@ -1,6 +1,6 @@
 numpy==1.8.0
 scipy>=0.10.1
 h5py>=2.3.0
-pyscf>=1.4.6
-input_reader>=1.2.2
-Cython>=0.23.4
+pyscf==1.4.6
+input_reader==1.2.2
+Cython==0.23.4
