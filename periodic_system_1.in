@@ -1,0 +1,10 @@
+! Example input file for periodic system with embedding
+
+[subsystem]
+atom = C 0.0 0.0 0.0
+atom = C 1.4 0.0 0.0
+basis = cc-pVDZ
+
+[embed]
+cycles = 15
+type = DFT-in-DFT

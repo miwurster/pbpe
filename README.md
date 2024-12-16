@@ -39,3 +39,29 @@ Citation
 
 * [D.V. Chulhai and J.D. Goodpaster, <em>J. Chem. Theory Comput.</em> <b>2018</b>, <em>14</em>, 1928-1942.](http://dx.doi.org/10.1021/acs.jctc.7b01154)
 
+Docker
+------
+
+Build the image on MacOS:
+
+```shell
+docker buildx build --pull -o type=docker --platform "linux/amd64" --tag pbpe .
+```
+
+Build the image on Linux:
+
+```shell
+docker build -t pbpe .
+```
+
+Run the image on MacOS:
+
+```shell
+docker run -it --rm --platform "linux/amd64" pbpe
+```
+
+Run the image on Linux:
+
+```shell
+docker run -it --rm pbpe
+```
